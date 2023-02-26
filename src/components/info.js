@@ -5,6 +5,6 @@ export const Info = {
   tel1: "403-257-4059",
   mail1: "info@projectlandscape.ca",
 
-  street1: "3511 64 ave",
+  street1: "3511 64 Ave",
   city1: "Calgary, AB",
 }
