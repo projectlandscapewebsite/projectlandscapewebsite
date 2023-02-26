@@ -65,7 +65,7 @@ export default function MainTrends() {
     <Section>
       <div className="spacing">
         <Container>
-          <Text className="spacing">
+          <Text className="spacing ">
             <div>
               <p className="subheader accent">title for trends</p>
               <h2 className="title">title for trends </h2>
