@@ -193,6 +193,18 @@
       }
      
  
+      fragment Page_Faq on WpPage_Pagecomponents_PageComponents_Faq {
+        
+  title
+  body
+  questions {
+    question
+    answer
+  }
+  
+      }
+     
+ 
       fragment Page_ImageGallery on WpPage_Pagecomponents_PageComponents_ImageGallery {
         
             body
