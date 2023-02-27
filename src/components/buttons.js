@@ -2,8 +2,6 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
-// Links & Anchors
-// Links
 export const ButtonPrimary = styled(props => <Link {...props} />)`
   cursor: pointer;
   display: inline-block;
