@@ -22,7 +22,7 @@ export default function PortfolioBanner() {
       <Section>
         <Container>
           <Flex>
-            <Text className="spacing">
+            <Text className="spacing ">
               <div>
                 <p className="subheader">
                   explore the latest in landscape designs
