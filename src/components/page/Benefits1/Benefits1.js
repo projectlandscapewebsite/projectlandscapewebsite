@@ -34,11 +34,13 @@ export default function Benefits1({ subheader, title, benefitContent }) {
                   alt={benefit.image.altText}
                 />
                 <h3 className="subheader caps">{benefit.title}</h3>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: `${benefit.description}`,
-                  }}
-                />
+                {benefit.description ? (
+                  <p
+                    dangerouslySetInnerHTML={{
+                      __html: `${benefit.description}`,
+                    }}
+                  />
+                ) : null}
               </BenefitItem>
             )
           })}
