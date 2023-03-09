@@ -32,6 +32,16 @@ const List = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2em;
 
+  ul {
+    padding: 2em;
+  }
+
+  p {
+    ul {
+      padding-left: 2em;
+    }
+  }
+
   @media screen and (max-width: ${device.md}) {
     grid-template-columns: 1fr;
   }
