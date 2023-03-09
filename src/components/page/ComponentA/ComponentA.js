@@ -65,7 +65,7 @@ const Item = styled.div`
 `
 
 const StyledImg = styled(GatsbyImage)`
-  height: 400px;
+  width: 100%;
 `
 
 const Button = styled.div`
@@ -90,11 +90,13 @@ export default function ComponentA({ subheader, title, body, componentItems }) {
             <div>
               <p className="subheader accent">{subheader}</p>
               <h2 className="title">{title}</h2>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: `${body}`,
-                }}
-              />
+              {body ? (
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: `${body}`,
+                  }}
+                />
+              ) : null}
             </div>
           </Text>
         </Container>

@@ -48,11 +48,13 @@ export default function ComponentE({ subheader, title, content }) {
                 />
                 <div>
                   <h3 className="subheader accent">{item.title}</h3>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: `${item.description}`,
-                    }}
-                  />
+                  {item.description ? (
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: `${item.description}`,
+                      }}
+                    />
+                  ) : null}
                 </div>
               </Item>
             )
