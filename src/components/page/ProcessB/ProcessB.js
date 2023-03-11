@@ -56,7 +56,7 @@ export default function ProcessB({ title, subheader, body, processContent }) {
             <Container className="spacing">
               <div>
                 <p className="subheader">{subheader}</p>
-                <h2 className="title">{title}</h2>
+                <h2 className="title ">{title}</h2>
               </div>
               {body ? (
                 <p
