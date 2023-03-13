@@ -51,7 +51,7 @@ export default function Banner(props) {
   return (
     <BannerGrid>
       <Wrapper img={props.img}>
-        <Container className="spacing">
+        <Container className="spacing ">
           <Text className="spacing">
             <div className="">
               <p className="subheader accent">{props.subheader}</p>
